@@ -29,7 +29,7 @@ function preload(){
   obstacleImage = loadImage("images/mushroom.png")
 }
 function setup() {
-  createCanvas(1500, 600);
+  createCanvas(2000, 600);
   database = firebase.database();
   game = new Game();
   game.getState();
